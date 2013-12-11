@@ -6,22 +6,20 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta name="description" content="">
    		<meta name="author" content="">
-   		<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"></link>
+   		<link rel="stylesheet" type="text/css" href="{{ base.url }}bootstrap/css/bootstrap.min.css"></link>
    		<style>
 		    body {
 		    	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 		    }
 	    </style>
-		<link rel="stylesheet" type="text/css" href="/css/style.css"></link>
-		<script src="/bootstrap/js/bootstrap.min.js"></script>
+		<script src="{{ base.url }}bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-fixed-top navbar-inverse">
 			<div class="navbar-inner">
 				<div class="container">
-					<a class="brand" href="/">Sample</a>
+					<a class="brand" href="{{ base.url }}">Sample</a>
 					<ul class="nav">
-						<li><a href="/pages/about">About</a></li>
 					</ul>
 				</div>
 			</div>
